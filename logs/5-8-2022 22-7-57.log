@@ -1,0 +1,32 @@
+[Date: 5/8/2022 22:7:57 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Debug\Logging.cpp Function: Init-56]
+[Logging]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Input\Keyboard.cpp Function: Init-37]
+[Keyboard]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Input\Mouse.cpp Function: Init-98]
+[Mouse]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Debug\Debugging.cpp Function: Init-167]
+[Debugging]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\Primitives3D.cpp Function: Init-175]
+[Primitives3D]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\Primitives2D.cpp Function: Init-124]
+[Primitives2D]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\TextureRenderer.cpp Function: Init-100]
+[TextureRenderer]: Initialized
+[Date: 5/8/2022 22:7:58 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Window\Window.cpp Function: Init-100]
+[Window]: Initialized
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Window\Window.cpp Function: Destroy-122]
+[Window]: Destroyed
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Input\Keyboard.cpp Function: Release-48]
+[Keyboard]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Input\Mouse.cpp Function: Release-118]
+[Mouse]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Debug\Debugging.cpp Function: Release-176]
+[Debugging]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\Primitives3D.cpp Function: Release-206]
+[Primitives3D]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\Primitives2D.cpp Function: Release-147]
+[Primitives2D]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Drawing\TextureRenderer.cpp Function: Release-110]
+[TextureRenderer]: Released
+[Date: 5/8/2022 22:8:6 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\Legacy\Debug\Logging.cpp Function: Release-61]
+[Logging]: Released

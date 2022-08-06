@@ -1,0 +1,16 @@
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Debug\Logging.cpp Function: Init-56]
+[Logging]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Input\Keyboard.cpp Function: Init-37]
+[Keyboard]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Input\Mouse.cpp Function: Init-98]
+[Mouse]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Debug\Debugging.cpp Function: Init-167]
+[Debugging]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Drawing\Primitives3D.cpp Function: Init-175]
+[Primitives3D]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Drawing\Primitives2D.cpp Function: Init-124]
+[Primitives2D]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Drawing\TextureRenderer.cpp Function: Init-100]
+[TextureRenderer]: Initialized
+[Date: 5/8/2022 21:54:12 File: C:\Users\rodri\Desktop\PrimitiveEngine\src\OGDL\Window\Window.cpp Function: Init-100]
+[Window]: Initialized
