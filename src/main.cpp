@@ -1,29 +1,36 @@
 #include <PrimitiveEngine.hpp>
+#include <Editor/Editor.hpp>
 
 int main()
 {
+	PrimitiveEngine::Editor::EditorConfiguration::Load();
+
 	using namespace PrimitiveEngine::Window;
-	using namespace PrimitiveEngine::Debug;
 	using namespace PrimitiveEngine::GPU;
-	using namespace PrimitiveEngine::Utils;
-	using namespace PrimitiveEngine::Camera;
-	using namespace PrimitiveEngine::Drawing;
+	using namespace PrimitiveEngine::Editor;
+	using namespace PrimitiveEngine::Debug;
 
+	Editor* editor = new Editor();
+	editor->Awake();
+
+	Window::LoadDependencies();
 	Window::Init();
+	Window::Maximize();
 
-	ImagePtr image(new Image(Path::GetCurrentPath() + "/../../../res/icon.png"));
-	Window::SetIcons({ image });
+	editor->Start();
 
-	Camera2DPtr cam(new Camera2D());
-	Camera2D::SetCurrentCamera(cam);
+	while(Window::ShouldRun())
+	{	
+		Framebuffer::SetClearModes({ ClearMode::COLOR, ClearMode::DEPTH });
+		Framebuffer::Clear({0.0f, 0.0f, 0.0f, 0.0f});
 
-	while (Window::ShouldRun())
-	{
-		Primitives2D::DrawRectangle({ 100, 100 }, { 100, 100 }, 0, { 1, 0, 0 }, false);
-		Primitives2D::DrawRectangle({ 200, 200 }, { 100, 100 }, 0, { 1, 1, 0 }, true);
+		editor->Update();
 
 		Window::SwapAndPollEvents();
 	}
+
+	editor->Destroy();
+	delete editor;
 
 	Window::Destroy();
 

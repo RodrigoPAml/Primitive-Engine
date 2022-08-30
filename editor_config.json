@@ -1,0 +1,13 @@
+{
+    "debugging.autoLogGLFWErrors": true,
+    "debugging.autoLogOpenGLErrors": true,
+    "debugging.enableGlfwDebugging": true,
+    "debugging.enableOpenGLDebugging": true,
+    "debugging.severities": [
+        37190,
+        37191,
+        37192
+    ],
+    "logging.logConsole": true,
+    "logging.logFile": true
+}

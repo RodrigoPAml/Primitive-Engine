@@ -15,9 +15,13 @@
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
 
+// Json
+#include <json_nlohmann.hpp>
+
 // C++ Headers
 #include <iostream>
 #include <string>
+#include <algorithm>
 #include <functional>
 #include <filesystem>
 #include <exception>
@@ -28,44 +32,65 @@
 #include <ostream>
 #include <fstream>
 #include <memory>
+#include <any>
 #include <set>
 #include <map>
 
-// PrimitiveEngine Legacy
-#include <Legacy/Data/Debug.hpp>
-#include <Legacy/Data/GPU.hpp>
-#include <Legacy/Data/Utils.hpp>
+// PrimitiveEngine
+#include <Engine/Data/UtilsData.hpp>
+#include <Engine/Utils/Time.hpp>
 
-#include <Legacy/Utils/Image.hpp>
-#include <Legacy/Utils/File.hpp>
-#include <Legacy/Utils/Path.hpp>
-#include <Legacy/Utils/Time.hpp>
+#include <Engine/Data/DebugEnums.hpp>
+#include <Engine/Data/DebugData.hpp>
+#include <Engine/Data/DebugCallbacks.hpp>
+#include <Engine/Data/DebugUtils.hpp>
 
-#include <Legacy/GPU/Texture.hpp>
-#include <Legacy/GPU/Shader.hpp>
+#include <Engine/Data/GPUEnums.hpp>
+#include <Engine/Data/GPUData.hpp>
+#include <Engine/Data/GPUUtils.hpp>
 
-#include <Legacy/Data/Framebuffer.hpp>
-#include <Legacy/GPU/Framebuffer.hpp>
-#include <Legacy/GPU/Vertex.hpp>
-#include <Legacy/GPU/Command.hpp>
 
-#include <Legacy/Data/Window.hpp>
-#include <Legacy/Window/GUI.hpp>
-#include <Legacy/Window/Window.hpp>
+#include <Engine/Utils/Image.hpp>
+#include <Engine/Utils/File.hpp>
+#include <Engine/Utils/Path.hpp>
 
-#include <Legacy/Debug/Logging.hpp>
-#include <Legacy/Debug/Debugging.hpp>
+#include <Engine/GPU/Texture.hpp>
+#include <Engine/GPU/Shader.hpp>
 
-#include <Legacy/Data/Input.hpp>
-#include <Legacy/Input/Mouse.hpp>
-#include <Legacy/Input/Keyboard.hpp>
+#include <Engine/Data/FramebufferData.hpp>
 
-#include <Legacy/Data/Camera.hpp>
-#include <Legacy/Camera/Camera2D.hpp>
-#include <Legacy/Camera/Camera3D.hpp>
+#include <Engine/GPU/Framebuffer.hpp>
+#include <Engine/GPU/Vertex.hpp>
+#include <Engine/GPU/Command.hpp>
 
-#include <Legacy/Utils/Generator.hpp>
+#include <Engine/Data/WindowEnums.hpp>
+#include <Engine/Data/WindowData.hpp>
+#include <Engine/Data/WindowCallbacks.hpp>
 
-#include <Legacy/Drawing/TextureRenderer.hpp>
-#include <Legacy/Drawing/Primitives2D.hpp>
-#include <Legacy/Drawing/Primitives3D.hpp>
+#include <Engine/Window/GUI.hpp>
+#include <Engine/Window/Window.hpp>
+
+#include <Engine/Debug/Logging.hpp>
+#include <Engine/Debug/Debugging.hpp>
+
+#include <Engine/Data/InputEnums.hpp>
+#include <Engine/Data/InputCallbacks.hpp>
+
+#include <Engine/Input/Mouse.hpp>
+#include <Engine/Input/Keyboard.hpp>
+
+#include <Engine/Data/CameraEnums.hpp>
+#include <Engine/Data/CameraData.hpp>
+
+#include <Engine/Camera/Camera2D.hpp>
+#include <Engine/Camera/Camera3D.hpp>
+
+#include <Engine/Utils/Generator.hpp>
+
+#include <Engine/Drawing/TextureRenderer.hpp>
+#include <Engine/Drawing/Primitives2D.hpp>
+#include <Engine/Drawing/Primitives3D.hpp>
+
+// Editor
+#include <Editor/Interfaces/Layout.hpp>
+#include <Editor/EditorConfiguration.hpp>

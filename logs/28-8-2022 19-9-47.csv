@@ -1,0 +1,17 @@
+28/8/2022 19:9:47|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Debug\Logging.cpp|Init:121|Engine|Notify|Logging Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Input\Keyboard.cpp|Init:45|Engine|Notify|Keyboard Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Input\Mouse.cpp|Init:127|Engine|Notify|Mouse Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\Primitives3D.cpp|Init:174|Engine|Notify|Primitives3D Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\Primitives2D.cpp|Init:123|Engine|Notify|Primitives2D Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\TextureRenderer.cpp|Init:99|Engine|Notify|TextureRenderer Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Window\Window.cpp|Init:103|Engine|Notify|Window Initialized
+28/8/2022 19:9:48|C:\Users\rodri\Desktop\PrimitiveEngine\src\Editor\Editor.cpp|Start:15|Engine|Warning|Editor started
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Editor\Editor.cpp|Destroy:39|Engine|Warning|Editor released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Window\Window.cpp|Destroy:125|Engine|Notify|Window Destroyed
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Input\Keyboard.cpp|Release:56|Engine|Notify|Keyboard Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Input\Mouse.cpp|Release:147|Engine|Notify|Mouse Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Debug\Debugging.cpp|Release:81|Engine|Notify|Debugging Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\Primitives3D.cpp|Release:205|Engine|Notify|Primitives3D Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\Primitives2D.cpp|Release:146|Engine|Notify|Primitives2D Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Drawing\TextureRenderer.cpp|Release:109|Engine|Notify|TextureRenderer Released
+28/8/2022 19:9:57|C:\Users\rodri\Desktop\PrimitiveEngine\src\Engine\Debug\Logging.cpp|Release:128|Engine|Notify|Logging Released
